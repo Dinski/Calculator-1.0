@@ -50,6 +50,7 @@ public class TestDataProvider {
     public static Object[][] divLong() {
         return new Object[][] {
                 {9223372036854775807L, 1234567890123456789L , 7.0},
+                {9223372036854775807L, 1234567890123456789L , 7.001}
         };
     }
 
